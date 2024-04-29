@@ -2,16 +2,16 @@
 
 public class Mahasiswa
 { 
-		public string Name { get; set; }
-	public string Nim { get; set; }
-	public List <string> Course { get; set; }
-	public int Year { get; set; }
+		public string name { get; set; }
+	public string nim { get; set; }
+	public List <string> course { get; set; }
+	public int year { get; set; }
 
-	public Mahasiswa(string Nama,string nim,List<string> course,int year){
-			Name = Nama;
-			Nim = nim;
-			Course = course;
-			Year = year;
+	public Mahasiswa(string name,string nim,List<string> course,int year){
+			this.name = name;
+			this.nim = nim;
+			this.course = course;
+			this.year = year;
 		}
 	}
-}
+
